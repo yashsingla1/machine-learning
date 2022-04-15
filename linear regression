@@ -17,8 +17,7 @@ print(X)
 y = df.values[:, 21]
 m = len(y)
 
-print('Total no of training examples (m) = %s \n' %(m))
-print('------------------------------------------------------------------------------------------------------------------------------------')
+
 def feature_normalize(X):
   mu = np.mean(X, axis = 0)
   sigma = np.std(X, axis= 0, ddof = 1)
@@ -53,13 +52,6 @@ alpha = 0.1;
 
 theta, cost_history = gradient_descent(X, y, theta, alpha, iterations)
 
-print('Final value of theta =', theta)
-print('------------------------------------------------------------------------------------------------------------------------------------')
-
-print('First 5 values of cost from cost_history =', cost_history[:5])
-print('------------------------------------------------------------------------------------------------------------------------------------')
-
-print('Last 5 values of cost from cost_history =', cost_history[-5 :])
 
 
 import matplotlib.pyplot as plt
@@ -69,7 +61,7 @@ plt.grid()
 plt.xlabel("Number of iterations")
 plt.ylabel("cost (J)")
 plt.title("Convergence of gradient descent")
-print(X)
+
 
 
 df2=pd.read_csv('gdrive/My Drive/Linear_test.csv')
