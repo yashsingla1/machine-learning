@@ -11,7 +11,8 @@ LIST OF CONTENTS: 1)Linear regression
                   5)K means clustering
                   6)Neural Networks
                   
-ACKNOWLEDEMENT: I am extremely grateful to my mentors who helped me in every possible way and resolved my queries .                 
+ACKNOWLEDEMENT: I am extremely grateful to my mentors who helped me in every possible way and resolved my queries .
+                I am also thankful to the whole team of cyberlabs for providing resources and organising imformative workshops.
                   
    
    
