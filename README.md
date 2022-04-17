@@ -11,7 +11,7 @@ LIST OF CONTENTS: 1) Linear regression
                   5) K means clustering
                   6) Neural Networks
 
-LIBRARIES USED :  1) pandas
+LIBRARIES USED  : 1) pandas
                   2)numpy
                   3)matplotlib
 
