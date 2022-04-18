@@ -5,7 +5,7 @@
 
 ## *LIST OF CONTENTS*:            
  1) *Linear regression*
- 2) *Polynoimal regression*
+ 2) *Polynomial regression*
  3) *Logistic regression*
  4) *KNN*
  5) *K means clustering*
